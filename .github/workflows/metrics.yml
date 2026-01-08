@@ -16,9 +16,9 @@ jobs:
           # Options
           user: kaustuvpokharel
           template: classic
-          base: header, activity, repositories, metadata
+          base: header, activity, community, repositories, metadata
           base_indepth: yes
-          config_display: columns
+          config_display: large
           config_padding: 0, 8 + 10%
           config_timezone: America/Toronto
           config_twemoji: yes
@@ -45,9 +45,4 @@ jobs:
           plugin_lines_history_limit: 1
           plugin_lines_repositories_limit: 4
           plugin_lines_sections: base
-          plugin_notable: yes
-          plugin_notable_from: organization
-          plugin_notable_indepth: yes
-          plugin_notable_repositories: yes
-          plugin_notable_types: commit
           plugin_traffic: yes
